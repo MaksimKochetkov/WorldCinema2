@@ -7,17 +7,16 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="207dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:background="@drawable/radius">
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius"
+        android:minHeight="207dp">
 
         <ImageView
             android:id="@+id/charimg"
             android:layout_width="160dp"
-            android:background="@drawable/card"
             android:layout_height="130dp"
             android:layout_marginStart="20dp"
+            android:background="@drawable/card"
             android:maxWidth="160dp"
             android:maxHeight="130dp"
             android:scaleType="centerCrop"
@@ -46,7 +45,7 @@
         <TextView
             android:id="@+id/chartext2"
             android:layout_width="197dp"
-            android:layout_height="101dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginBottom="28dp"
             android:maxWidth="197dp"
