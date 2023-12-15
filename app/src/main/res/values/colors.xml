@@ -4,6 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="ab_color7">#221861</color>
     <color name="zero_opacity">#999900</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="bkg">#332973</color>
+    <color name="button">#EF3A01</color>
 
 
 </resources>
