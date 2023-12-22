@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 
@@ -47,4 +48,10 @@ class user : AppCompatActivity() {
         menuInflater.inflate(R.menu.menushka, menu)
         return true
     }
+
+    fun btn(view: View) {
+            val inte = Intent(this, magicians::class.java)
+            startActivity(inte)
+            finish()
+        }
 }
